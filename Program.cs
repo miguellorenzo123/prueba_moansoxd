@@ -19,8 +19,9 @@ namespace prueba_moansoxd
 
             Console.WriteLine("la suma de los 2 numeros ingresado es: " + (n1 + n2));
         
-
-
+            
+            //modificado por miguel lorenzo torres
+           Console.WriteLine("la resta de los 2 numeros ingresado es: " + (n2 - n1));
         }
 }
 }
