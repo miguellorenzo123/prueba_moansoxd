@@ -22,6 +22,9 @@ namespace prueba_moansoxd
             
             //modificado por miguel lorenzo torres
            Console.WriteLine("la resta de los 2 numeros ingresado es: " + (n2 - n1));
+        
+            //modificado por alan solorzano acosta
+           Console.WriteLine("la multiplicacion de los 2 numeros ingresados es: " + (n1 * n2));
         }
 }
 }
