@@ -16,6 +16,7 @@ namespace prueba_moansoxd
             n1 = int.Parse(Console.ReadLine());
             Console.WriteLine("ingrese otro numero: ");
             n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese otro numero: ");
 
             Console.WriteLine("la suma de los 2 numeros ingresado es: " + (n1 + n2));
         
@@ -40,6 +41,9 @@ namespace prueba_moansoxd
         
             //modificado por alejandro leon martinez
            Console.WriteLine("La potencia de numero1 elevado al numero2: "+ (Math.Pow(n1, n2)));
+        
+           //modificado por juan francisco camones molina        
+           Console.WriteLine("La raiz cuadrada es: "+ (Math.Sqrt(n1)));
 
             /////////////////////////////////////MODIFICACION DESDE VISUAL ESPERO FUNCIONE SINO F NOMAS :,,,,,,,,,,,,,,,,,V
         
