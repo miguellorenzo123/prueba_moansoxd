@@ -42,15 +42,18 @@ namespace prueba_moansoxd
             //modificado por alejandro leon martinez
            Console.WriteLine("La potencia de numero1 elevado al numero2: "+ (Math.Pow(n1, n2)));
         
-           //modificado por juan francisco camones molina        
-           Console.WriteLine("La raiz cuadrada es: "+ (Math.Sqrt(n1)));
-
-            /////////////////////////////////////MODIFICACION DESDE VISUAL ESPERO FUNCIONE SINO F NOMAS :,,,,,,,,,,,,,,,,,V
+           //modificado por juan francisco camones molina   
+           if(n1 < 0)
+                Console.WriteLine("El numero es: "+ n1 + "y su valor absoluto es: "+ Math.Abs(n1));
+           else
+               Console.WriteLine("El numero es: "+ n1);
+               
+           //MODIFIED BY JEFERSON LOZADA
+           Console.WriteLine("la raiz cuadrada de la suma de los dos numeros es: " + (Math.Sqrt(n1))/(Math.Pow(n2,2)-1));
         
         
-        //MODIFIED BY JEFERSON LOZADA
-        Console.WriteLine("la raiz cuadrada de la suma de los dos numeros es: " + (Math.Sqrt(n1))/(Math.Pow(n2,2)-1));
-            
+        
+            /////////////////////////////////////MODIFICACION DESDE VISUAL ESPERO FUNCIONE SINO F NOMAS :,,,,,,,,,,,,,,,,,V    
            
         }
     }
