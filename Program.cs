@@ -26,9 +26,13 @@ namespace prueba_moansoxd
         
             //modificado por alan solorzano acosta
            Console.WriteLine("la multiplicacion de los 2 numeros ingresados es: " + (n1 * n2));
-        
+            console.WriteLine("xd");
+            console.WriteLine("xd");
+            console.WriteLine("xd");
+            console.WriteLine("xd");
+
             //modificado por jose santa cruz
-           Console.WriteLine("la division de los 2 numeros ingresados es: " + (n1 / n2));
+            Console.WriteLine("la division de los 2 numeros ingresados es: " + (n1 / n2));
         
             //modificado por Francisco Jove
             if (n1 == n2) {
@@ -58,4 +62,4 @@ namespace prueba_moansoxd
         }
     }
 }
-}
+
